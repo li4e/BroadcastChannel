@@ -1,10 +1,5 @@
 {
   "rewrites": [
     { "source": "/static/:path*", "destination": "/api/static" }
-  ],
-  "functions": {
-    "api/static.js": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  ]
 }
